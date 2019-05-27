@@ -1,0 +1,82 @@
+/***************************
+季度分红，养老金**********************8*/
+#main #conts .mainBox {
+	width:100%;
+	margin-top:80px;
+}
+
+#main #conts .mainBox h2 {
+	background:#e1e1e1;
+	color:#010101;
+	font-size:16px;
+	line-height:36px;
+	text-align:center;
+	border-radius:0;
+	margin-top:0;
+}
+
+#main #conts .mainBox table {
+	border-collapse:collapse;
+	width:100%;
+	text-align:center
+}
+
+#main #conts .mainBox table td {
+	padding:6px 12px;
+	white-space:nowrap;
+	background:#ebebeb;
+	border-bottom:1px solid #fff;
+}
+
+#main #conts .mainBox table td:nth-child(even) {
+	background:#f6f6f6;
+}
+
+#main #conts .mainBox table td input[type='button'] {
+	padding:3px 8px;
+	background:#3598dc;
+	color:#fff;
+	border:none;
+	cursor:pointer
+}
+
+#main #conts .mainBox table td input[type='text'] {
+	padding:3px 12px;
+	border:1px solid #85898a;
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+/***************************
+季度分红，养老金**********************8*/
+#main #conts .mainBox {
+	margin-top:30px;
+}
+
+#main #conts .mainBox h2 {
+	font-size:13px;
+	line-height:30px;
+}
+
+#main #conts .mainBox .table {
+	overflow-x:scroll;
+	overflow-y:hidden
+}
+
+#main #conts .mainBox table td {
+	padding:4px 8px;
+}
+
+#main #conts .mainBox table td input[type='button'] {
+	padding:3px 8px;
+	background:#3598dc;
+	color:#fff;
+	border:none;
+	cursor:pointer
+}
+
+#main #conts .mainBox table td input[type='text'] {
+	padding:3px 12px;
+	border:1px solid #222;
+}
+
+}

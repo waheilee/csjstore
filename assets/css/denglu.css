@@ -1,0 +1,58 @@
+#main {
+	padding:8px 10px;
+	box-sizing:border-box
+}
+
+#main .pho {
+	width:100%;
+	margin-bottom:24px;
+}
+
+#main .pho img {
+	width:100%;
+}
+
+#main form li {
+	margin-bottom:10px;
+}
+
+#main form li  input {
+	width:100%;
+	border:1px solid #ddd;
+	border-radius:4px;
+	padding:0 5px;
+	box-sizing:border-box;
+	height:36px;
+}
+
+#main form p input {
+	width:100%;
+	text-align:center;
+	line-height:30px;
+	background:#4bbdf2;
+	color:#fff;
+	border:none;
+/*	float:left;*/
+	border-radius:4px;
+}
+
+#main form p a {
+	display:block;
+	float:left;
+	width:50%;
+	text-align:center;
+	line-height:30px;
+	color:#333;
+}
+#main form li.num {
+	position:relative;
+	padding-right:68px;
+}
+
+#main form li  img.yzm1 {
+	width:60px;
+	position:absolute;
+	right:0;
+	top:0;
+	height:36px;
+}

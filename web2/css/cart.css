@@ -1,0 +1,304 @@
+#main .mainBox {
+	padding:10px;
+}
+
+#main .mainBox  .box1 {
+	border:1px solid #ddd;
+	border-radius:4px;
+	margin:10px auto;
+	padding:10px 8px;
+}
+
+#main .mainBox  .box1 img {
+	width:96px;
+	height:96px;
+	float:left;
+}
+
+#main .mainBox  .box1 .text {
+	padding-left:100px;
+	padding-bottom:30px;
+	position:relative;
+}
+
+#main .mainBox  .box1 .text h3 {
+	font-size:14px;
+	color:#333;
+	font-weight:blod;
+	line-height:20px;
+}
+
+#main .mainBox  .box1 .text p {
+	padding-top:6px;
+	color:#888
+}
+
+#main .mainBox  .box1 .text p.p1 {
+	color:#333;
+}
+
+#main .mainBox  .box1 .text p.p1 span {
+	text-decoration:line-through;
+}
+
+
+#main .mainBox  .box1 .text input[type='button'] {
+	width:50px;
+	line-height:28px;
+	background:#4bbdf2;
+	color:#fff;
+	margin-right:10px;
+	border:none;
+	border-radius:4px;
+	font-size:14px;
+}
+
+#main .mainBox  .box1 .text a {
+	display:block;
+	float:left !important;
+	font-size:14px;
+	text-align:center;
+	bo rder-radius:4px;
+	background:#DEDEDE;
+	color:#fff;
+}
+.add-plus-inp ut .num {
+	float:left !important;
+}
+
+#main .mainBox  .box1 .text a1 {
+	width:50px;
+	display:inline-block;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	border-radius:4px;
+	background:#d9534f;
+	color:#fff;
+}
+
+#main .mainBox  .box1 .text .choose {
+	position:absolute;
+	left:0px;
+	top:50%;
+	margin-top:-15px;
+	width:15px;
+	height:15px;
+}
+
+#main .mainBox  .box1 .text input.check {
+	position:relative;
+	z-index:100;
+	opacity:0;
+	width:15px;
+	height:15px;
+}
+
+#main .mainBox  .box1 .text .choose span {
+	display:block;
+	width:15px;
+	height:15px;
+	border:1px solid #ddd;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:90
+}
+
+#main .mainBox  .box1 .text input.check:checked + span {
+	background:url(../images/dh.png) no-repeat center;
+	border-color:#df443b;
+	background-size:13px 13px;
+}
+
+#main .mainBox  .box2 {
+	margin:10px 0 80px;
+	border-radius:4px;
+}
+
+#main .mainBox  .box2 p {
+	line-height:40px;
+	border:1px solid #ccc;
+	padding-left:30px;
+	font-size:15px;
+	color:#333;
+}
+
+#main .mainBox  .box2 .link {
+	overflow:hidden;
+	margin-top:15px;
+}
+
+#main .mainBox  .box2 .link a {
+	width:50%;
+	text-align:center;
+	display:block;
+	line-height:32px;
+	float:left;
+	border-radius:4px 0 0 4px;
+	background:#4bbdf2;
+	color:#fff;
+}
+
+#main .mainBox  .box2 .link a.shop {
+	background:none;
+	color:#333;
+}
+
+/************ÐÞ¸Ä****************/
+#main .mainBox .caBox td {
+	border:1px solid #ddd;
+	padding:6px;
+	position:relative
+}
+
+#main .mainBox .caBox td .check {
+	position:relative;
+	width:18px;
+	height:18px;
+	margin:0 auto
+}
+
+#main .mainBox .caBox td .check input {
+	width:18px;
+	height:18px;
+	position:relative;
+	z-index:100;
+	opacity:0;
+}
+
+#main .mainBox .caBox td .check span {
+	display:block;
+	width:18px;
+	height:18px;
+	border:2px solid #979898;
+	border-radius:50%;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(../images/duihao.png) no-repeat center;
+}
+
+#main .mainBox .caBox td .check input:checked + span {
+	background-color:#F60;
+	border-color:#F60;
+}
+
+#main .mainBox .caBox td img {
+	width:80px;
+}
+
+#main .mainBox .caBox td h3 {
+	font-size:17px;
+	color:#333;
+	margin-bottom:5px;
+}
+
+#main .mainBox .caBox td strong {
+	display:block;
+	color:#C00;
+	font-size:15px;
+}
+
+#main .mainBox .caBox td span.color {
+	display:block;
+	padding:3px;
+	background:#ddd;
+	color:#333;
+	width:40px;
+	margin-top:4px;
+	text-align:center;
+	border-radius:2px;
+}
+
+#main .mainBox .caBox table.tabl2 {
+	margin-top:15px;
+}
+
+#main .mainBox .caBox table.tabl2 td {
+	padding:10px 0;
+	text-align:left
+}
+
+#main .mainBox .caBox table.tabl2 td.td {
+	width:50%;
+	text-align:center;
+}
+
+#main .mainBox .caBox table.tabl2 td.td1 {
+	border-right:none
+}
+
+#main .mainBox .caBox table.tabl2 td.td2 {
+	border-left:none
+}
+
+#main .mainBox .caBox table.tabl2 td label {
+	display:inline-block;
+	width:30%;
+	padding:0 6px;
+	box-sizing:border-box;
+	line-height:28px;
+	text-align:right;
+}
+
+#main .mainBox .caBox table.tabl2 td input {
+	width:50%;
+	line-height:26px;
+	padding:0 3px;
+}
+
+#main .mainBox .caBox table.tabl2 tr.last td {
+	border:none
+}
+
+#main .mainBox .caBox table.tabl2 tr.last td  input {
+	width:49%;
+	float:left;
+	background:#f5a312;
+	color:#fff;
+	border-radius:5px;
+	line-height:36px;
+	padding:0;
+	border:none;
+	display:block;
+	font-size:14px;
+}
+
+#main .mainBox .caBox table.tabl2 tr.last td  input.butt2 {
+	float:right;
+	background:#1cbb7e
+}
+
+.add-plus-input{
+	position:absolute;
+	right:6px;
+	bottom:10%;
+}
+
+.add-plus-input .btn,
+.add-plus-input .num{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.add-plus-input .num{
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-left: 0;
+	border-right: 0;
+	width: 30px;
+	padding:0;
+	margin-left:-4px;
+}
+
+ .add-plus-input .btn{
+	border: 1px solid #999;
+	 display: inline-block;
+	text-decoration: none;
+	width: 20px;
+	font-size:18px;
+}
+

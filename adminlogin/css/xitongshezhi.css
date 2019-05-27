@@ -1,0 +1,438 @@
+#main #conts .mainBox .table {
+	width:100%;
+	border:1px solid #333;
+	overflow-x:scroll;
+	overflow-y:hidden
+}
+
+#main #conts .mainBox .table table {
+	border-collapse:collapse;
+	width:100%;
+}
+
+#main #conts .mainBox h3 {
+	background:#62be8f;
+	padding:6px 0;
+	font-size:18px;
+	text-align:center;
+	border:1px solid #333;
+	border-bottom:none;
+	width:100%;
+}
+
+#main #conts .mainBox .table td {
+	padding:10px;
+	white-space:nowrap;
+	text-align:center;
+	border-bottom:1px solid #666;
+	border-right:1px solid #333
+}
+
+#main #conts .mainBox .table td input[type='text'] {
+	width:50%;
+	text-align:center;
+	background:#edf2f4;
+	border:1px solid #999
+}
+
+#main #conts .mainBox input.button {
+	display:block;
+	margin:10px auto;
+	width:100px;
+	padding:6px 0;
+	background:#3598dc;
+	border:none;
+	cursor:pointer;
+	color:#fff;
+}
+
+/**********************系统参数8*******************/
+#main #conts .mainBox h2 {
+	font-size:18px;
+	color:#000;
+	background:#e1e1e1;
+	line-height:50px;
+	text-align:center;
+	margin-bottom:20px
+}
+
+#main #conts .mainBox .table1 {
+	overflow:hidden
+}
+
+.box {
+	position:relative;
+	display:inline-block;
+	margin-right:8px;
+}
+
+.box b{ 
+	width:20px; 
+	height:20px; 
+	border-radius:50%; 
+	background:#85898a; 
+	display:block; 
+	position:absolute; 
+	left:0px; 
+	top:0;
+}
+
+.box i { 
+	width:10px; 
+	height:10px; 
+	background:#0CF; 
+	border-radius:50%; 
+	display:block; 
+	position:absolute; 
+	left:5px; 
+	top:5px; 
+	display:none
+}
+input[type='radio']:checked + i {
+	display:block
+}
+
+input[type='radio'] { 
+	/**opacity:0; **/
+	margin-bottom:10px;
+	margin-right:10px
+}
+
+/**********************
+电子邮件************************/
+#main #conts .mainBox h2 p {
+	font-size:14px;
+	display:inline
+}
+
+#main #conts .mainBox textarea {
+	width:90%;
+	padding:5px;
+	box-sizing:border-box
+}
+
+#main #conts .mainBox .table1 td input[type='text'] {
+	width:150px
+}
+
+/******************************8
+权限设置****************************/
+#main #conts .mainBox .top {
+	width:100%;
+	border-radius:6px 6px 0 0;
+	padding:20px 30px;
+	box-sizing:border-box;
+	background:#e1e1e1 url(../img/huiyuan/pho3.png) no-repeat left center;
+	overflow:hidden;
+}
+
+#main #conts .mainBox .top form {
+	float:left
+}
+
+#main #conts .mainBox .top form select {
+	width:130px;
+	padding:5px;
+	box-sizing:border-box
+}
+
+#main #conts .mainBox .top form input[type='text'] {
+	padding:5px 10px;
+}
+
+#main #conts .mainBox .top form input[type='button'] {
+	padding:5px 20px;
+	background:#3598dc;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	font-size:14px;
+}
+
+#main #conts .mainBox .top .text {
+	float:right;
+	font-size:22px;
+}
+
+#main #conts .mainBox .list {
+	width:100%;
+	box-sizing:border-box;
+	padding:10px 0 10px 30px;
+	font-size:14px;
+}
+
+#main #conts .mainBox .list span {
+	display:inline-block;
+	margin-right:40px;
+	padding-right:20px;
+	background:url(../img/huiyuan/pho3.png) no-repeat right center
+}
+
+#main #conts .mainBox .list input {
+	margin-right:20px;
+	width:100px;
+	padding:5px 8px;
+	box-sizing:border-box
+}
+
+
+#main #conts .mainBox .list input[type='button'] {
+	padding:5px 8px;
+	background:#bfd275;
+	border:none
+}
+
+#main #conts .mainBox .table2 table{
+	width:100%;
+	text-align:center;
+	border-collapse:collapse
+}
+
+#main #conts .mainBox .table2 table td {
+	padding:6px 12px;
+	background:#f6f6f6;
+	border:1px solid #fff;
+}
+
+#main #conts .mainBox .table2 table th {
+	text-align:right;
+	padding:6px 12px;
+	background:#f1f1f1;
+}
+
+#main #conts .mainBox .table2 table td:nth-child(odd) {
+	background:#ebebeb;
+}
+
+#main #conts .mainBox .table2 table td input[type='button'] {
+	padding:3px 10px;
+	background:#bfd275;
+	border:none;
+	color:#fff;
+}
+
+#main #conts .mainBox .table2 table td input[type='button']:nth-child(2) {
+	background:#e74f5b
+}
+
+#main #conts .mainBox .table2 table td input[type='button']:nth-child(3) {
+	background:#3598dc
+}
+
+#main #conts .mainBox .table2 table th span {
+	color:#3598dc;
+}
+
+/*******************清空奖金*******************/
+#main #conts .mainBox .table3 {
+	width:100%;
+}
+
+#main #conts .mainBox .table3 table{
+	width:100%;
+	text-align:left;
+	font-size:14px;
+	border-collapse:collapse
+}
+
+#main #conts .mainBox .table3 table td {
+	padding:10px 12px;
+	background:#e6e6e6;
+	border-bottom:1px solid #fff
+}
+
+#main #conts .mainBox .table3 table tr:last-child td {
+	background:#fff;
+}
+
+#main #conts .mainBox .table3 table td input[type='button']{
+	padding:4px 20px;
+	background:#e74f5b;
+	border:none;
+	margin:0 auto;
+	display:block;
+	cursor:pointer
+}
+
+#main #conts .mainBox .table3 table th {
+	padding:6px 0;
+	text-align:center;
+	font-size:16px;
+}
+
+#main #conts .mainBox .menu {
+	width:100%;
+	overflow:hidden;
+	border-radius:6px 6px 0 0;
+	padding:20px ;
+	box-sizing:border-box;
+	background:#e1e1e1 url(../img/huiyuan/pho3.png) no-repeat left center;
+}
+
+#main #conts .mainBox .menu form {
+	float:left
+}
+
+#main #conts .mainBox .menu h4 {
+	float:right;
+	font-size:22px;
+}
+
+#main #conts .mainBox .menu input {
+	background:#f0f4f7;
+	border:1px solid #c9c9c9;
+	color:#0d82c7;
+	padding:5px 12px;
+	cursor:pointer
+}
+
+
+
+@media all and (min-width: 0) and (max-width: 767px) {
+/**********************系统参数8*******************/
+#main #conts .mainBox h2 {
+	font-size:14px;
+	line-height:30px;
+	margin-bottom:10px
+}
+#main #conts .mainBox .table1 {
+	width:100%;
+	overflow-y:hidden;
+	overflow-x:scroll
+}	
+
+/**********************
+电子邮件************************/
+#main #conts .mainBox .table1 td input[type='text'] {
+	width:80%
+}
+
+#main #conts .mainBox h2 p {
+	font-size:10px;
+	display:inline
+}
+
+#main #conts .mainBox textarea {
+	width:90%;
+	padding:5px;
+	box-sizing:border-box
+}
+
+/******************************8
+权限设置****************************/
+#main #conts .mainBox .top {
+	padding:10px 10px;
+	background:#e1e1e1 no-repeat left center;
+}
+
+#main #conts .mainBox .top form select {
+	width:100px;
+}
+
+#main #conts .mainBox .top form input[type='text'] {
+	padding:5px 5px;
+	width:90px;
+}
+
+#main #conts .mainBox .top form input[type='button'] {
+	padding:5px 10px;
+	font-size:10px;
+}
+
+#main #conts .mainBox .top .text {
+	width:100%;
+	font-size:16px;
+	text-align:center;
+	font-weight:900;
+	margin-top:10px
+}
+
+#main #conts .mainBox .list {
+	padding:10px 0 10px 10px;
+	font-size:11px;
+}
+
+#main #conts .mainBox .list span {
+	display:block;
+	margin-right:0px;
+	padding-right:0;
+	background:none
+}
+
+#main #conts .mainBox .list .span {
+	text-align:center
+}
+
+#main #conts .mainBox .list input {
+	margin:0 auto 10px;
+}
+
+
+#main #conts .mainBox .list input[type='button'] {
+	padding:3px 6px;
+}
+
+#main #conts .mainBox .table2 {
+	width:100%;
+	overflow-x:scroll;
+	overflow-y:hidden
+} 
+
+#main #conts .mainBox .table2 table td {
+	padding:5px 10px;
+	white-space:nowrap
+}
+
+#main #conts .mainBox .table2 table th {
+	padding:5px 10px;
+}
+
+#main #conts .mainBox .table2 table td input[type='button'] {
+	padding:2px 8px;
+}
+
+/*******************清空奖金*******************/
+#main #conts .mainBox .table3 table{
+	font-size:12px;
+}
+
+#main #conts .mainBox .table3 table td {
+	padding:6px 8px;
+}
+
+#main #conts .mainBox .table3 table td input[type='button']{
+	padding:4px 16px;
+	background:#e74f5b;
+	border:none;
+}
+
+#main #conts .mainBox .table3 table th {
+	padding:6px 0;
+	text-align:center;
+	font-size:12px;
+}
+
+#main #conts .mainBox .menu {
+	padding:10px ;
+}
+
+#main #conts .mainBox .menu form {
+	float:left;
+}
+
+#main #conts .mainBox .menu h4 {
+	float:right;
+	font-size:16px;
+}
+
+#main #conts .mainBox .menu input {
+	background:#f0f4f7;
+	border:1px solid #c9c9c9;
+	color:#0d82c7;
+	padding:5px 12px;
+	cursor:pointer
+}
+
+
+
+}

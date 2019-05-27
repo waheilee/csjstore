@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi li {
+	width:33.33%;
+	float:left;
+	text-align:center;
+	margin-top:30px;
+}
+
+#gNavi li  a {
+	display:block;
+	color:#666;
+	font-size:14px;
+}
+
+#gNavi li  span {
+	display:block;
+	width:58px;
+	height:58px;
+	text-align:center;
+	margin:0 auto 7px
+}
+
+#gNavi li  span img {
+	width:58px;
+	height:58px;
+}
+
+.sec1 {
+	width:100%;
+	margin:0;
+	padding:10px 10px 0px;
+	box-sizing:border-box;
+	background:#fff;
+}
+ .sec1:first-child {
+	border-radius:10px 10px 0 0;
+	margin-top:10px;
+}
+
+.sec1:last-child {
+	border-radius:0px 0px 10px 10px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+}
+#main .sBox {
+	border-radius:10px;
+	margin:10px 0px;
+}
+
+
+.sec1 h2 {
+	font-size:16px;
+	color:#666;
+	line-height:30px;
+	margin-bottom:10px;
+	text-align:center
+}
+
+.sec1 .secBox li {
+	width:48%;
+	float:left;
+	margin:0 1% 15px;
+}
+
+.sec1 .secBox li a {
+	display:block;
+	border:1px solid #ddd;
+	padding:15px 10px;
+	font-size:14px;
+	color:#333;
+	border-radius:6px;
+}
+
+.sec1 .secBox li a  img {
+	width:100%;
+   
+
+
+}
+
+.sec1 .secBox li a h3 {
+	font-weight:100;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	margin-bottom:6px;
+}
+
+.sec1 .secBox li a p {
+	line-height:1.7em;
+	font-size:14px;
+}
+
+.sec1 .secBox li a p span {
+	color:red;
+	font-size:13px;
+}
+
+.sec1 .secBox li a p.unde {
+	text-decoration:line-through;
+}
+
+.sec1 .secBox li a p.unde span {
+	color:blue;
+}

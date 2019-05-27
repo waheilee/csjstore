@@ -1,0 +1,17 @@
+#main .mainBox .table {
+	padding:10px;
+}
+
+#main .mainBox .table table td {
+	padding:6px 5px;
+	border-bottom:1px solid #ddd;
+	text-align:center
+}
+
+#main .mainBox .table table td a {
+	display:inline-block;
+	padding:2px;
+	color:#fff;
+	background:#4bbdf2;
+	border-radius:3px;
+}

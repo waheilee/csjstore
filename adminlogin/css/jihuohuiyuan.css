@@ -1,0 +1,493 @@
+/***************************
+婵�娲讳細鍛�*******************/
+#main #conts .mainBox {
+	width:100%;
+}
+
+#main #conts .mainBox .title {
+	width:100%;
+	line-height:60px;
+	background:url(../img/huiyuan/pho1.png) no-repeat left center;
+	padding:0 20px;
+	box-sizing:border-box
+}
+
+#main #conts .mainBox .title .left {
+	float:left
+}
+
+#main #conts .mainBox .title select {
+	width:210px;
+	height:30px;
+	padding:0 10px;
+	box-sizing:border-box
+}
+
+#main #conts .mainBox .title .left input[type='text'] {
+	background:#fff;
+	border:1px solid #999;
+	padding:0 5px;
+	line-height:30px
+}
+
+#main #conts .mainBox .title input[type='button'] {
+	padding:4px 12px;
+	cursor:pointer;
+	background:#3598dc;
+	color:#fff;
+	border:none;
+	border-radius:2px;
+}
+
+#main #conts .mainBox .title .right {
+	float:right
+}
+
+#main #conts .mainBox .title input[type='text'] {
+	background:#f0f4f7;
+	padding:0 5px;
+	line-height:26px;
+	cursor:inherit;
+	border:none;
+}
+
+#main #conts .mainBox .table {
+	width:100%;
+}
+
+#main #conts .mainBox .table h3 {
+	font-size:16px;
+	color:#000;
+	text-align:center;
+	line-height:30px
+}
+
+#main #conts .mainBox .table table {
+	border-collapse:collapse;
+	width:100%;
+}
+
+#main #conts .mainBox .table .table1 {
+	margin-bottom:200px;
+}
+
+#main #conts .mainBox .table table td {
+	wid th:12.5%;
+	padding:5px 10px;
+	text-align:center;
+	background:#ebebeb;
+	white-space:nowrap;
+	line-he ight:36px;
+	border:1px solid #fff;
+}
+
+#main #conts .mainBox .table table td:nth-child(even) {
+	background:#f6f6f6
+}
+
+#main #conts .mainBox .table table th {
+	text-align:right;
+	padding-right:10px;
+	box-sizing:border-box;
+	background:#f1f1f1;
+	line-height:36px;
+}
+
+#main #conts .mainBox .table table th a {
+	color:#3598dc;
+}
+/********************
+#main #conts .mainBox .table .table2 {
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	background:#fafafa;
+	text-align:center;
+}
+
+#main #conts .mainBox .table .table2 ul {
+	margin:0 auto 10px;
+	width:60%;
+}
+
+#main #conts .mainBox .table .table2 li{
+	width:20%;
+	float:left;
+	margin-right:0;
+}
+
+#main #conts .mainBox .table .table2 li a {
+	background:none;
+	color:#57a01e;
+	line-height:30px;
+	font-size:14px;
+}
+
+#main #conts .mainBox .table .table2 table {
+	border:1px solid #a3cdf8;
+}
+
+#main #conts .mainBox .table .table2 table td {
+	background:#fff;
+	border:1px solid #a3cdf8
+} 
+
+#main #conts .mainBox .table .table2 table td input[type='button'] {
+	padding:3px 12px;
+	background:#97cfe7;
+	border:none;
+	color:#000;
+	cursor:pointer
+}
+
+#main #conts .mainBox .table .table2 table tr:nth-child(1) td {
+	text-align:left;
+	padding:5px 5px;
+	box-sizing:border-box;
+}
+
+#main #conts .mainBox .table .table2 table tr:nth-child(2) td {
+	text-align:left;
+	padding:5px 5px;
+	box-sizing:border-box;
+}
+
+#main #conts .mainBox .table .table2 table tr:nth-child(3) th{
+	background:#fff;
+	text-align:center
+}*************************88/
+
+/***************************
+姝ｅ紡浼氬憳*******************/
+#main #conts .mainBox .table table td input[type='checkbox'] {
+	margin:3px 0px 0 0;
+	float:left;
+}
+
+#main #conts .mainBox .table table tr:nth-child(2) td input[type='checkbox'] {
+	margin-l eft:-18px;
+}
+
+#main #conts .mainBox .table table td input[type='button']{
+	background:#3598dc;
+	color:#fff;
+	padding:4px 10px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer
+}
+#main #conts .mainBox .table table td input[type='submit']{
+	background:#3598dc;
+	color:#fff;
+	padding:4px 10px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer
+}
+#main #conts .mainBox .table table th input {
+	float:left;
+	margin-left:10px;
+	border:none;
+	background:#3598dc;
+	color:#fff;
+	margin-top:10px;
+	cursor:pointer
+}
+
+#main #conts .mainBox .table table th input:nth-child(2) {
+	background:#e74f5b
+}
+
+#main #conts .mainBox .table table th input:nth-child(3) {
+	background:#e74f5b
+}
+
+/*****************************
+鏈嶅姟涓績*************/
+#main #conts .mainBox .table table td.tab3 input[type="button"] {
+	padding:5px 20px;
+}
+
+#main #conts .mainBox .table table td.tab3 input[type="button"]:nth-child(2) {
+	background:#e74f5b
+}
+
+/*****************
+鎿嶄綔璁板綍*************************/
+#main .celan {
+	padding-bottom:10%
+}
+
+#main #conts .mainBox .table4 {
+	width:100%;
+}
+
+#main #conts .mainBox .table4 table {
+	width:100%;
+	text-align:center;
+	border-collapse:collapse;
+	border:1px solid #333;
+	white-space:nowrap
+}
+
+#main #conts .mainBox .table4 table th {
+	padding:12px 0;
+	background:#e1e1e1;
+	font-size:16px;
+}
+
+#main #conts .mainBox .table4 table td {
+	border:1px solid #333;
+	padding:10px 8px;
+}
+
+#main #conts .mainBox .table4 table tr:last-child th{
+	padding:10px 10px;
+	text-align:right;
+	font-size:14px;
+}
+
+#main #conts .mainBox .table4 table tr:last-child th a {
+	color:#3598dc
+}
+
+/***********************杞处璁板綍***********************8*/
+#main #conts .mainBox .table table th input.shanchu {
+	background:#e74f5b
+}
+
+/***********************濂栭噾鏄庣粏***********************8*/
+#main #conts .mainBox .left1 {
+	float:left
+}
+
+#main #conts .mainBox .left1 select {
+	width:100px;
+	height:28px
+}
+
+#main #conts .mainBox .left1 input,#main #conts .mainBox .right1 input {
+	width:100px;
+	padding:0 3px
+}
+
+#main #conts .mainBox .right1 input[type='button'] {
+	padding:4px 8px;
+	width:80px
+}
+
+#main #conts .mainBox .right1 {
+	float:left;
+	margin-left:15px
+}
+
+/***********************浼氬憳缁熻***********************8*/
+#main #conts .mainBox h4 {
+	font-size:16px;
+	color:#3598dc;
+	background:#e1e1e1;
+	text-align:center;
+}
+
+#main #conts .mainBox h4 span {
+	display:block;
+	margin-bottom:0 auto;
+	font-size:14px;
+	font-weight:100;
+}
+
+#main #conts .mainBox .pho {
+	width:100%;
+	margin-top:10px
+}
+
+#main #conts .mainBox .pho img {
+	width:100%;
+}
+
+/***********************璁㈠崟绠＄悊***********************8*/
+#main #conts .mainBox .table ul {
+	margin-bottom:0
+}
+
+#main #conts .mainBox .table ul li {
+	background:#3598dc;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer
+}
+
+#main #conts .mainBox .table ul li.on {
+	color:#e74f5b
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+/***************************
+婵�娲讳細鍛�*******************/
+#main #conts .mainBox .title {
+	width:100%;
+	line-height:30px;
+	padding:5px 10px;
+	background:#e1e1e1
+}
+
+#main #conts .mainBox .title .left {
+	width:100%;
+	float:left
+}
+
+#main #conts .mainBox .title .left input[type='text'] {
+	line-height:25px
+}
+
+#main #conts .mainBox .title input[type='button'] {
+	width:90px
+}
+
+#main #conts .mainBox .title select {
+	width:90px;
+	height:25px;
+	padding:0 5px
+}
+
+#main #conts .mainBox .title .right {
+	float:left;
+	width:100%;
+}
+
+#main #conts .mainBox .title .right span {
+	display:block;
+}
+
+#main #conts .mainBox .title input[type='text'] {
+	width:30%;
+	box-sizing:border-box
+}	
+
+#main #conts .mainBox .table {
+	width:100%;
+	margin-top:20px
+}
+
+#main #conts .mainBox .table h3 {
+	font-size:16px;
+	color:#000;
+	text-align:center;
+	line-height:30px
+}
+
+#main #conts .mainBox .table table {
+	border-collapse:collapse;
+	width:100%;
+}
+
+#main #conts .mainBox .table .table1 {
+	margin-bottom:50px;
+	overflow-x:scroll;
+	overflow-y:hidden
+}
+
+#main #conts .mainBox .table table td {
+	width:inherit;
+	padding:8px 12px;
+	text-align:center;
+	background:#ebebeb;
+	line-height:1em;
+	white-space:nowrap;
+}
+
+#main #conts .mainBox .table table th {
+	font-size:10px;
+}
+
+
+#main #conts .mainBox .table table th input{
+	font-size:11px;
+	margin-left:5px
+}
+
+/**************************
+#main #conts .mainBox .table .table2 {
+	overflow-x:scroll;
+	overflow-y:hidden
+}
+
+#main #conts .mainBox .table .table2 ul {
+	width:100%;
+}
+
+#main #conts .mainBox .table .table2 li a {
+	line-height:25px;
+	font-size:11px;
+	white-space:nowrap
+}
+
+#main #conts .mainBox .table .table2 table td {
+	background:#fff;
+	border:1px solid #a3cdf8;
+} 
+
+#main #conts .mainBox .table .table2 table td input[type='button'] {
+	padding:3px 12px;
+}
+
+#main #conts .mainBox .table .table2 table tr:nth-child(1) td {
+	padding:6px 5px;
+}
+
+#main #conts .mainBox .table .table2 table tr:nth-child(2) td {
+	padding:6px 5px;
+}********************************/
+
+/***************************
+姝ｅ紡浼氬憳*******************/
+#main #conts .mainBox .table table td input[type='checkbox'] {
+	margin-left:-8px;
+	margin-top:0
+}
+
+/*****************
+鎿嶄綔璁板綍*************************/
+#main .celan {
+	padding-bottom:0
+}
+#main #conts .mainBox .table4 {
+	overflow-x:scroll;
+	overflow-y:hidden
+}
+
+/****************濂栭噾鎬昏〃*****************8*/
+#main #conts .mainBox .left1 span {
+	display:block
+}
+
+/***********************濂栭噾鏄庣粏***********************8*/
+#main #conts .mainBox .left1 {
+	float:left;
+	width:100%
+}
+
+#main #conts .mainBox .right1 {
+	float:left;
+	width:100%;
+	margin-left:0
+}
+
+#main #conts .mainBox .right1 span {
+	display:block
+}
+
+/***********************浼氬憳缁熻***********************8*/
+#main #conts .mainBox h4 {
+	font-size:13px;
+}
+
+#main #conts .mainBox h4 span {
+	font-size:11px;
+}
+
+
+
+	
+}

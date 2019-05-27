@@ -1,0 +1,329 @@
+/*姝ｅ紡浼氬憳鏌ョ湅*/
+#main #conts .mainBox .table {
+	width:100%;
+}
+
+#main #conts .mainBox .table table {
+	border-collapse:collapse;
+	border:1px solid #3598dc;
+	width:100%;
+}
+
+#main #conts .mainBox .table table th {
+	text-align:center;
+	padding:12px 0;
+	border:1px solid #3598dc
+}
+
+#main #conts .mainBox .table table th a {
+	padding:6px 12px;
+	background:#3598dc;
+	color:#fff;
+	margin-right:5px;
+}
+
+#main #conts .mainBox .table table td {
+	padding:12px 6px;
+	width:50%;
+	box-sizing:border-box;
+	border:1px solid #3598dc;
+	text-align:left;
+}
+
+#main #conts .mainBox .table table td:nth-child(odd) {
+	text-align:right
+}
+
+#main #conts .mainBox .table table td input[type='text'] {
+	width:150px;
+	padding:4px 5px;
+	box-sizing:border-box;
+	margin-left:3px;
+}
+
+#main #conts .mainBox .table table td input.short {
+	width:60px;
+	padding:4px 6px;
+	box-sizing:border-box;
+}
+
+#main #conts .mainBox .table table th input[type='button'] {
+	padding:5px 12px;
+	border:none;
+	background:#06F;
+	color:#fff;
+}
+
+#main #conts .mainBox .table table th input[type='button']:last-child {
+	background:#FF5151;
+	margin-left:10px;
+	cursor:pointer
+}
+
+/*******************
+鎺ㄨ崘鍥�
+********************/
+
+#main #conts .mainBox .chaxun input[type='text'] {
+	width:150px;
+	padding:4px 5px;
+	box-sizing:border-box;
+	border:1px solid #666;
+}
+
+#main #conts .mainBox .chaxun input[type='button'] {
+	width:60px;
+	text-align:center;
+	padding:4px 0;
+	border:none;
+	background:#3598dc;
+	color:#fff;
+	cursor:pointer
+}
+
+#main #conts .mainBox li {
+	width:100px;
+	text-align:center;
+}
+
+#main #conts .mainBox li:first-child {
+	
+}
+
+#main #conts .mainBox li a {
+	background:none;
+	display:inline;
+	line-height:20px;
+	color:#00F;
+	font-size:14px;
+}
+
+#main #conts .mainBox li:last-child a {
+	background:none;
+}
+/******************************
+缃戠粶鍥�*********************/
+#main #conts .mainBox .chaxun1 {
+	width:70%;
+	overflow:hidden;
+	float:left;
+	font-size:14px;
+}
+#main #conts .mainBox .chaxun1 .form {
+	width:300px;
+	float:left
+}
+#main #conts .mainBox .chaxun1 ul {
+	width:210px;
+	float:left;
+	margin:0;
+	line-height:30px;
+}
+
+#main #conts .mainBox .jh {
+	float:right;
+	width:30%;
+	margin:0;
+}
+
+#main #conts .mainBox .jh li a {
+	display:block;
+	line-height:30px;
+	color:#000;
+	background:#06F;
+	font-size:14px;
+}
+
+#main #conts .mainBox .jh li:nth-child(2) a{
+	background:#CF6
+}
+
+#main #conts .mainBox .wlt {
+	width:100%;
+}
+
+#main #conts .wlt {
+	width:100%;
+	height:600px;
+	border:1px solid red;
+	margin-top:20px;
+}
+
+/*鏌ョ湅濂栭噾鏄庣粏*/
+#main #conts .mainBox .table2 {
+	width:100%;
+}
+
+#main #conts .mainBox .table2 table {
+	width:100%;
+	border-collapse:collapse
+}
+
+#main #conts .mainBox .table2 table td {
+	padding:10px  0;
+	text-align:center;
+	background:#f5f3f3;
+	border:1px solid #fff;
+	line-height:25px;
+}
+
+#main #conts .mainBox .table2 table td:nth-child(2) {
+	background:#ddd
+}
+
+#main #conts .mainBox .table2 table th {
+	padding:10px 10px;
+	text-align:right
+}
+
+#main #conts .mainBox .table2 table th a {
+	color:#06F
+}
+
+/*************娉ㄥ唽**************/
+#main #conts .mainBox .table3 {
+	width:100%;
+}
+
+#main #conts .mainBox .table3 table {
+	width:100%;
+	border-collapse:collapse
+}
+
+#main #conts .mainBox .table3 span {
+	color:red;
+	margin:0 6px;
+}
+
+#main #conts .mainBox .table3 th {
+	width:100%;
+	padding:8px 0;
+	text-align:center;
+	border:1px solid #fff;
+	background:#E4E2E3;
+}
+
+#main #conts .mainBox .table3 td {
+	padding:5px 10px;
+	width:50%;
+	box-sizing:border-box;
+	border:1px solid #fff;
+}
+
+#main #conts .mainBox .table3 td input[type='text'] {
+	padding:4px 5px;
+}
+
+#main #conts .mainBox .table3 td input[type='button'] {
+	background:#006FDD;
+	color:#fff;
+	border:none;
+	padding:4px 12px;
+	border-radius:4px;
+	
+}
+
+#main #conts .mainBox .table3 th input[type='button'] {
+	background:#06D995;
+	color:#fff;
+	border:none;
+	padding:4px 12px;
+	border-radius:4px;
+	
+}
+
+#main #conts .mainBox .table3 td:nth-child(odd) {
+	text-align:right;
+	background:#EBE9EA;
+}
+
+#main #conts .mainBox .table3 td:nth-child(even) {
+	text-align:left;
+	background:#f5f3f3
+}
+
+
+@media all and (min-width: 0) and (max-width: 767px) {
+/*姝ｅ紡浼氬憳鏌ョ湅*/
+#main #conts .mainBox .table table th {
+	padding:8px 0;
+}
+
+#main #conts .mainBox .table table th a {
+	padding:3px 6px;
+}
+
+#main #conts .mainBox .table table td {
+	padding:8px 6px;
+}
+
+#main #conts .mainBox .table table td input[type='text'] {
+	width:90px;
+	padding:4px 5px;
+	box-sizing:border-box;
+	margin-left:3px;
+}
+
+#main #conts .mainBox .table table td span {
+	display:block;
+	margin-bottom:5px;
+}
+
+/******************************
+缃戠粶鍥�*********************/
+#main #conts .mainBox .chaxun1 {
+	width:100%;
+	overflow:hidden;
+}
+#main #conts .mainBox .chaxun1 .form {
+	width:100%;
+	float:left
+}
+#main #conts .mainBox .chaxun1 ul {
+	width:100%;
+	margin-top:10px;
+}
+
+
+#main #conts .mainBox .jh {
+	float:left;
+	width:100%;
+}
+
+#main #conts .mainBox .jh li a {
+	display:block;
+	line-height:30px;
+	color:#000;
+	background:#06F;
+	font-size:14px;
+}
+
+#main #conts .mainBox .table2 table th {
+	padding:5px 0;
+	width:100%;
+}
+
+#main #conts .mainBox .table2 table th a {
+	font-size:8px;
+}
+
+/*************娉ㄥ唽**************/
+#main #conts .mainBox .table3 span {
+	margin:0 3px;
+}
+
+#main #conts .mainBox .table3 th {
+	padding:6px 0;
+}
+
+#main #conts .mainBox .table3 td input[type='text'] {
+	padding:4px 5px;
+	width:100px;
+	margin-bottom:5px;
+}
+
+
+
+
+
+}

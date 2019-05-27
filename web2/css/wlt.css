@@ -1,0 +1,313 @@
+#main .mainbox {
+	width:100%;
+	padding:20px 0;
+	background:#fff;
+	border-top:5px solid #e7eaec
+}
+
+#main .mainbox .top {
+	border-bottom:2px solid #f1f1f1;
+	text-align:right;
+	margin-bottom:30px;
+}
+
+#main .mainbox .top ul li {
+	display:inline-block;
+	margin-right:20px;
+	padding-bottom:20px
+}
+
+#main .mainbox .top ul li a {
+	display:block;
+	padding:4px 15px;
+	border-radius:4px;
+	color:#1ac4a1;
+	border:1px solid #1ac4a1
+}
+
+#main .mainbox .top ul li.onn a {
+	background:#1ac4a1;
+	color:#fff
+}
+
+
+#main .mainbox .form1 select {
+	background:#14c1b3;
+	padding:5px 12px;
+	color:#fff;
+	border:none;
+	float:left;
+	margin-left:20px
+}
+
+#main .mainbox .form1 input[type='text'] {
+	border:1px solid #ddd;
+	padding:5px 5px;
+	float:left;
+	width:100px;
+}
+
+#main .mainbox .form1 input[type='submit'] {
+	padding:5px 10px;
+	float:left;
+	color:#fff;
+	border-radius:4px;
+	margin-left:5px;
+	background:#14c1b3;
+	border:none;
+}
+
+#main .mainbox .table2 {
+	width:95%;
+	margin:20px auto;
+	border-collapse:collapse
+}
+
+#main .mainbox .table2 td {
+	line-height:35px;
+	height:35px;
+	text-align:center;
+	background:#8b8484;
+	color:#fff;
+}
+
+#main .mainbox .table2 td:nth-child(2) {
+	background:#009999;
+}
+
+#main .mainbox .table2 td:nth-child(3) {
+	background:#8891ed;
+}
+
+
+#main .mainbox .pic {
+	width:100%;
+	padding:20px 20px 100px;
+	box-sizing:border-box;
+}
+
+
+#main .mainbox .pic .floor1 {
+	text-align:center;
+}
+
+#main .mainbox .pic .floor1 a {
+	display:block;
+	width:80px;
+	margin:0 auto;
+	border:1px solid #14c4a1;
+	padding:5px 10px;
+	color:#14c4a1;
+	text-align:center;
+}
+
+#main .mainbox .pic .floor1 table {
+	width:15%;
+	margin:0 auto;
+	border:1px solid #ddd;
+}
+
+#main .mainbox .pic .floor1 table td {
+	height:25px;
+	background:#009999;
+	color:#fff;
+	border-bottom:1px solid #fff;
+}
+
+#main .mainbox .pic .floor1 table td table {
+	width:100%;
+	border:none;
+}
+
+#main .mainbox .pic .floor1 table td table td {
+	background:#c9e8ec;
+	color:#4b4250
+}
+
+#main .mainbox .pic .floor1 table td table td.last {
+	background:#fff;
+	border-bottom:1px solid #ddd;
+}
+
+#main .mainbox .pic .floor1 li {
+	position:relative
+}
+
+#main .mainbox .pic .floor1 li table:after {
+	content:"";
+	width:1px;
+	height:40px;
+	display:block;
+	background:#000;
+	position:absolute;
+	left:50%;
+	bottom:-40px
+}
+
+#main .mainbox .pic .floor2:before {
+	content:"";
+	display:block;
+	width:50%;
+	height:1px;
+	background:#000;
+	margin:40px auto;
+}
+
+#main .mainbox .pic .floor2 {
+	width:100%;
+}
+
+#main .mainbox .pic .floor2 li {
+	border:1px solid blue;
+	width:50%;
+	box-sizing:border-box;
+	float:left;
+	border:20px solid #fff;
+	border-top:none;
+	position:relative;
+	border-bottom:none;
+}
+
+#main .mainbox .pic .floor2 li table {
+	width:30%;
+	margin:0 auto;
+	posit ion:relative
+}
+
+#main .mainbox .pic .floor2 li>table:before {
+	content:"";
+	display:block;
+	width:1px;
+	height:40px;
+	position:absolute;
+	background:#000;
+	left:50%;
+	top:-40px;
+}
+
+#main .mainbox .pic .floor2 li a:before {
+	content:"";
+	display:block;
+	width:1px;
+	height:40px;
+	position:absolute;
+	background:#000;
+	left:50%;
+	top:-40px;
+}
+
+#main .mainbox .pic .floor .floor3 {
+	float:left;
+	width:50%
+}
+
+#main .mainbox .pic .floor .floor3  li {
+	width:50%;
+	float:left;
+	box-sizing:border-box;
+}
+
+#main .mainbox .pic .floor .floor3  li table {
+	width:60%
+}
+
+#main .mainbox .pic .floor .floor3  li table td table {
+	width:100%;
+}
+
+#main .mainbox .pic .floor .floor3 li table:after {
+	display:none
+}
+
+
+
+
+@media all and (min-width:0) and (max-width:767px) {
+#main .mainbox {
+	padding:10px;
+	box-sizing:border-box
+}
+
+#main .mainbox .top {
+	margin-bottom:15px;
+}
+
+#main .mainbox .top ul li {
+	padding-bottom:10px
+}
+
+#main .mainbox .pic {
+	overflow-x:scroll;
+	padding-right:20px;
+}
+	
+#main .mainbox .pic_box {
+	width:800px;
+}
+
+#main .mainbox .pic .floor1 table {
+	width:25%;
+}
+
+#main .mainbox .pic .floor2 li table {
+	width:50%;
+}
+
+#main .mainbox .pic .floor .floor3  li table {
+
+	width:90%
+}
+
+#main .mainbox .form1 select {
+	padding:5px 12px;
+	margin-left:10px;
+	display:block;
+	float:inherit;
+}
+
+#main .mainbox .form1 input[type='text'] {
+	width:60%;
+	margin:7px 0 7px 10px;
+	float:inherit;
+	display:block;
+}
+
+#main .mainbox .form1 input[type='submit'] {
+	float:inherit;
+	margin-left:10px;
+}
+
+#main .mainbox .table2 {
+	width:95%;
+	margin:20px auto;
+	border-collapse:collapse
+}
+
+#main .mainbox .table2 td {
+	line-height:35px;
+	height:35px;
+	text-align:center;
+	background:#8b8484;
+	color:#fff;
+}
+
+#main .mainbox .table2 td:nth-child(2) {
+	background:#009999;
+}
+
+#main .mainbox .table2 td:nth-child(3) {
+	background:#8891ed;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+

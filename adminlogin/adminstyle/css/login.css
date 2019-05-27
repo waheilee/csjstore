@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login_reg{width:600px;height:25px;line-height:25px;font-size:14px;color:#000;float:right;margin-right:67px;margin-top:18px;}
+.login_cont{width:163px;position:absolute;left:28px;top:17px;z-index:9999;}
+.login_cont a{width:78px;height:35px;line-height:35px;text-align:center;color:#333;font-size:14px;background:url(../images/login_03.png) no-repeat 0 0;}
+.login_cont a.account_login{float:right;}
+.login_cont a.enterprise_login{float:left;}
+.content{width:952px;height:457px;margin:0 auto;background:url(../images/login.png) no-repeat 0 0;margin-top:138px;padding:13px 19px 0 104px; position:relative;}
+.r_cont{width:511px;height:214px;padding-top:221px;padding-left:12px;background:url(../images/login_15.png) no-repeat 0 0; float:right;}
+.r_cont .wchoo{width:131px;height:16px;float:right;margin-right:52px;}
+.ljxq{width:138px;height:100px;position:relative;float:left;margin-right:15px;padding-left:18px;font-size:12px;color:#000; }
+.ljxq p{width:124px;line-height:22px;}
+.ljxq .ljxq_abso{position:absolute; top:68px; left:18px;}
+.l_cont{position:relative;float:left;width:335px;height:435px;}
+.l_cont .login_logo{width:158px;height:150px;margin:0 auto 23px;}
+.l_cont .login_input{width:294px;height:46px;padding-left:41px;margin-bottom:6px;}
+
+.l_cont .user_name{background:url(../images/yhm_10.png) no-repeat 0 0;}
+.l_cont .nobg{background:none; border:none; height:46px; line-height:46px; color:#9a9a9a; font-size:16px;}
+.l_cont .user_password{background:url(../images/password.png) no-repeat 0 0; position:relative;}
+.user_password span{background:url(../images/rjp.jpg) no-repeat 0 0;width:27px;height:17px;display:inline-block; position:absolute;top:15px;right:9px;cursor:pointer;}
+.user_code{width:192px;height:46px;background:url(../images/user_code.png) no-repeat 0 0;padding-left:14px;margin-bottom:6px;}
+.code img{float:right;width:120px;height:33px;margin-top:8px;}
+.login_button{display:block;background:url(../images/login_button.png) no-repeat 0 0;width:332px;height:45px;}
+.forget_pw{display:block;background-color:#ffffff;width:100px;height:20px;position:absolute;bottom:0;right:0; text-align:center;}
+
+.l_cont .login_qy{background:url(../images/qy.png) no-repeat 0 0}
+.login_qydx{background:url(../images/qy_dx.png) no-repeat 0 0; width:165px; padding-left:41px;}
+.code .login_hqyzm{float:right;width:125px;height:35px; line-height:35px; color:#333;margin-top:6px; background:#d8d8d8; text-align:center; cursor:pointer;}
+
+
+/*2017-07-31*/
+#login{background-image:url(../img/phone_bg.jpg);background-position:top center;background-repeat:no-repeat;font-family:"微软雅黑";}
+#login .login-con{margin:0 auto;width:380px\9;position:relative;background:rgba(0,0,0,.6);border-radius:5px;padding:30px 0 50px;}
+#login .logo{width:125px;margin:0 auto;}
+#login .logo img{width:100%;}
+#login h4{font-size:26px;color:#fff;font-weight:bold;letter-spacing:10px;text-align:center;margin:25px 0 0;}
+#login .login-main{background-size:100%;padding:0 40px;}
+#login .login-main h5{height:60px;position:relative;line-height:50px;font-size:16px;color:#fff;text-align:center;margin:0;}
+#login .login-main h5 span{display:block;width:100px;height:1px;background:rgba(255,255,255,.3);position:absolute;top:25px;left:0;}
+#login .login-main h5 span.last{left:inherit;right:0;}
+#login .bs-example{background:#CCCCD1;margin-bottom:20px;border-radius:5px;height:35px;}
+#login .bs-example i{float:left;width:35px;line-height:18px;margin:7px 0;text-align:center;border-right:solid 1px #000;}
+#login .bs-example .input-con{margin-left:36px;*margin-left:0;}
+#login .bs-example .input-con input,#login .code-input input{width:100%;height:35px;line-height:35px;border:0;background:none;outline:none;padding:0 5px;border-radius:5px;*padding:0px;}
+#login .input-code{margin-bottom:10px;height:35px;}
+#login .code-img{width:110px;height:35px;float:right;}
+#login .code-input{margin-right:120px;background:#CCCCD1;border-radius:5px;height:35px;}
+#login .login-main p{text-align:right;}
+#login .login-main p a{color:#EFDA64;}
+#login .login-btn input{background:#EA0101;color:#fff;}
+#login .login-btn input#Button1{background:#ffba00;}
+.login-btn.row{*margin-left:0;*margin-right:0;}
+.login-btn.row .col-xs-6{*padding-left:0;*padding-right:0;}
+
+@media (min-width:992px) {
+    #login{background-image:url(../img/1.jpg);background-position:center;}
+    #login .login-con{width:400px;float:right;background:rgba(0,0,0,.35);}
+    #login .logo{width:175px;}
+    #login h4{letter-spacing:20px;}
+    /*#login .login-main{height:390px;}*/
+}
+@media (min-width:1360px) {
+    #login .login-con{right:-100px;}
+}
+
+
+
+
+
+
+
+
+
+

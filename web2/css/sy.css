@@ -1,0 +1,161 @@
+#main .heaBox {
+	width:100%;
+	padding-top:10px;
+	background:url(../images/head.jpg) no-repeat center;
+	background-size:100% 100%
+}
+
+#main .heaBox table td b img {
+	width:6em;
+	border-radius:50%;
+	border:5px solid #fff
+}
+
+#main .heaBox table td {
+	width:65%;
+	padding-left:20px;
+	box-sizing:border-box;
+	text-shadow:0 0 3px #333;
+	-webkit-text-shadow:0 0 3px #333;
+}
+
+#main .heaBox table td:nth-child(odd) {
+	width:52%;
+	text-align:right;
+}
+
+#main .heaBox table td p {
+	line-height:1.7em;
+	color:#fff;
+	font-size:12px;
+}
+
+
+#main .heaBox ul {
+	background:rgba(0,0,0,.4);
+	margin-top:20px;
+	padding:10px 0;
+}
+
+#main .heaBox ul li {
+	width:33%;
+	float:left;
+	color:#fff;
+	border-right:1px solid #555;
+	text-align:center;
+	box-sizing:border-box;
+}
+
+#main .heaBox ul li:last-child {
+	border-right:none
+}
+
+#main .heaBox ul li span {
+	display:block;
+	margin-bottom:4px;
+}
+
+#main .mainBox {
+	background:#fafafa;
+	padding:20px 10px 60px;
+}
+
+#main .mainBox li {
+	width:25%;
+	float:left;
+	margin-bottom:20px;
+	text-align:center;
+	color:#666
+}
+
+#main .mainBox li b {
+	display:block;
+	width:45px;
+	height:45px;
+	margin:0 auto 6px;
+	border-radius:50%;
+	text-align:center;
+	line-height:45px;
+	background:#ee4b47;
+}
+
+#main .mainBox li b img {
+	width:25px;
+	height:25px;
+	margin-top:10px
+}
+
+
+#main .mainBox li:nth-child(2) b {
+	background:#fcae14
+}
+
+#main .mainBox li:nth-child(4) b {
+	background:#4a8dfc
+}
+
+#main .mainBox li:nth-child(5) b {
+	background:#83cc2b
+}
+
+#main .mainBox li:nth-child(6) b {
+	background:#eb6d6a
+}
+
+#main .mainBox li:nth-child(7) b {
+	background:#4a8dfc
+}
+
+#main .mainBox li:nth-child(8) b {
+	background:#f38043
+}
+
+#main .mainBox li:nth-child(10) b {
+	background:#f54e91
+}
+
+#main .mainBox li:nth-child(11) b {
+	background:#83cc2b
+}
+
+#main .mainBox li:nth-child(12) b {
+	background:#f54e91
+}
+
+#main .mainBox li:nth-child(13) b {
+	background:#83cc2b
+}
+
+#main .mainBox li:nth-child(14) b {
+	background:#5a98fd
+}
+
+#main .mainBox li:nth-child(15) b {
+	background:#fcae14
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

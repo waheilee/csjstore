@@ -1,0 +1,909 @@
+/*------------全局-----------*/
+
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* html body {
+    overflow: visible;
+}
+
+* html iframe,
+* html frame {
+    overflow: auto;
+}
+
+* html frameset {
+    overflow: hidden;
+}
+
+body {
+    color: #000;
+    background: url(../imge/web_bg.jpg) top center no-repeat;
+    background-attachment: fixed;
+    font-family: "Microsoft YaHei", Verdana, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+tr {
+    margin: 0 auto;
+    padding: 0;
+}
+
+input,
+select {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+/ body div {
+    text-align: left;
+}
+
+textarea,
+input {
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 0px;
+}
+img {
+    border: 0 none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #628828;
+}
+
+a {
+    outline: none;
+    star: expression_r(this.onFocus=this.blur());
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.NoBorder {
+    border: 0 none;
+}
+
+.NoPadding {
+    padding: 0;
+}
+
+.t_l {
+    text-align: left;
+}
+
+.t_c {
+    text-align: center;
+}
+
+.t_r {
+    text-align: right;
+}
+
+.Break {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.Nobreak {
+    word-break: keep-all;
+    word-wrap: normal;
+}
+
+.FL {
+    float: left;
+}
+
+.FR {
+    float: right;
+}
+
+.UnLine {
+    text-decoration: underline;
+}
+
+.DisunLine {
+    text-decoration: none;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.wrapper {
+    clear: both;
+    overflow: hidden;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    width: 100%;
+    font-size: 1px;
+    line-height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.FB {
+    font-weight: bold;
+}
+
+.FN {
+    font-weight: normal;
+}
+
+.FI {
+    font-style: italic;
+}
+
+.F10 {
+    font-size: 10px;
+}
+
+.F11 {
+    font-size: 11px;
+}
+
+.F12 {
+    font-size: 12px;
+}
+
+.F13 {
+    font-size: 13px;
+}
+
+.F14 {
+    font-size: 14px;
+}
+
+.F16 {
+    font-size: 16px;
+}
+
+.F18 {
+    font-size: 18px;
+}
+
+.DivH5,
+.DivH10,
+.DivH15,
+.DivH20,
+.DivH25,
+.DivH30,
+DivH1,
+.DivH40 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.DivH1 {
+    height: 1px;
+}
+
+.DivH5 {
+    height: 5px;
+}
+
+.DivH8 {
+    height: 8px;
+}
+
+.DivH10 {
+    height: 10px;
+}
+
+.DivH15 {
+    height: 15px;
+}
+
+.DivH20 {
+    height: 20px;
+}
+
+.DivH25 {
+    height: 25px;
+}
+
+.DivH30 {
+    height: 30px;
+}
+
+.DivH40 {
+    height: 40px;
+}
+
+.DivH60 {
+    height: 60px;
+}
+
+.DivH80 {
+    height: 80px;
+}
+
+.LH1 {
+    line-height: 1px;
+}
+
+.LH10 {
+    line-height: 10px;
+}
+
+.LH15 {
+    line-height: 15px;
+}
+
+.LH18 {
+    line-height: 18px;
+}
+
+.LH20 {
+    line-height: 20px;
+}
+
+.LH25 {
+    line-height: 25px;
+}
+
+.LH30 {
+    line-height: 30px;
+}
+
+.LH35 {
+    line-height: 35px;
+}
+
+.color_green {
+    color: #85c226;
+}
+
+.color_red {
+    color: #e8470a;
+}
+
+.color_red1 {
+    color: #F00;
+}
+
+.color_yellow {
+    color: #bf0000;
+}
+
+
+/***********************/
+
+.header {
+    height: 90px;
+    background: #333;
+}
+
+.header .logo {
+    float: left;
+    margin-top: 25px;
+}
+
+.header .logo img {
+    width: 100%;
+    max-width: 215px;
+}
+
+.header .nav {
+    float: left;
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+
+.header .nav li a {
+    color: #ddd;
+    line-height: 72px;
+}
+
+.dropdown-menu li a {
+    line-height: 3em!important;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+    border-bottom: 0!important;
+}
+
+.header .login {
+    float: right;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    background: #ff6600;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.header .login:hover {
+    color: #222;
+    background: #ff6600;
+}
+
+.yinyan {
+    overflow: auto;
+    margin-top: 25%;
+}
+
+.yinyan h4 {
+    margin: 0;
+}
+
+.yinyan h1 {
+    font-size: 6em;
+}
+
+.yinyan h3 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.conter {
+    padding: 30px 20px 0;
+    text-align: left;
+    background: #fff;
+    min-height: 500px;
+    margin-top: 35.5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    position:relative;
+}
+
+.conter .youshi {
+    overflow: auto;
+    margin: 100px 0;
+}
+
+.conter .youshi dl dt {
+    float: left;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.conter .youshi dl dt i {
+    color: #aaa;
+    height: 80px;
+    font-size: 3em;
+}
+
+.conter .youshi dl dt {
+    float: left;
+}
+
+.conter .youshi dl dd h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.conter .csr {
+    overflow: auto;
+    background: #eee;
+}
+
+.conter .csr .csr_info {
+    display: block;
+    margin-top: 10%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.conter .that_all {
+    color: #aaa;
+    line-height: 30px;
+    text-align: center;
+    padding: 5%;
+    background: #f6f6f6;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+.conter .footer {
+    color: #aaa;
+    line-height: 30px;
+    text-align: center;
+/*    position:absolute;*/
+    bottom: 0px;
+}
+
+.details {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.details_info .mbx {
+    color: #aaa;
+}
+
+.details_info h2 {
+    text-align: center;
+}
+
+
+/***********用户中心************/
+.copy_info{
+    color: #888;
+    font-size: 0.5em;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.menu {
+    height: auto;
+    width: 160px;
+}
+
+.user_center {
+    height: 90px;
+    background: #333;
+    overflow: auto;
+}
+
+.right {
+    width: auto;
+    margin-left: 160px;
+}
+
+.left_anv {
+    float: left;
+    height: 100%;
+    background: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #222;
+    z-index: 1000;
+}
+
+.left_anv .user {
+    padding: 20px 20px 5px 20px;
+}
+
+.left_anv .user dt {
+    margin-bottom: 10px;
+}
+
+.left_anv .user dt img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.left_anv .user dt img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.left_anv .user dd {
+    text-align: left;
+    color: #ddd;
+}
+
+.left_anv .user .ext {
+    float: right;
+    color: #aaa;
+    padding: 1px 8px;
+    background: #444;
+    border-radius: 3px;
+}
+
+.left_anv .nav-primary li {
+    text-align: left;
+    float: none;
+}
+
+.left_anv .nav-primary li a {
+    color: #ddd;
+    border-bottom: 1px solid #282828;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.left_anv .nav-primary .nav a {
+    padding-left: 30px;
+}
+
+.icon-chevron-right {
+    float: right;
+}
+
+.user_header {
+    text-align: left;
+}
+
+.user_header .logo {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.user_header .logo img {
+    max-width: 180px;
+}
+
+.user_header .user_time {
+    float: right;
+    color: #aaa;
+    margin-right: 20px;
+    margin-top: 5px
+}
+.table{
+    font-size: 1em;
+}
+.example {
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: auto;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.example .user_xx{
+    text-align: left;
+    line-height: 30px;
+}
+.example .btn{
+    background: #ED5C00;
+    border: none;
+    width: 100px;
+}
+.example .user_home{
+    text-align: center;
+    padding: 0;
+    overflow: auto;
+}
+.example .user_home li{
+    list-style: none;
+}
+.example .user_home li a{
+    display: block;
+    color: #ddd;
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #333;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+}
+.example .user_home i{
+    font-size: 1em;
+    margin-right: 5%;
+}
+.example .user_home li a:hover{
+    color: #fff;
+    background: #ED5C00;
+}
+.example .home_xinxi{
+    overflow: auto;
+    line-height: 50px;
+    text-align: left
+}
+.example .home_xinxi span{
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin:0 3.5%;
+}
+.example .day{
+    display: block;
+    color: red;
+    line-height: 50px;
+    font-weight: bold;
+}
+.example .home_xinxi span{
+    display: block;
+}
+.example .jiangli_info{
+    overflow: auto;
+}
+.example .jiangli_info .bky{
+    color: red;
+}
+.example .jiangli_info span{
+    font-weight: bold;
+    line-height: 50px;
+}
+.example .jljl_title{
+    font-weight: 100;
+    text-align: left!important;
+}
+.example .tree-lines li{
+    text-align: left;
+}
+.xtgg{
+    text-align: left;
+}
+.sqbz p{
+    margin: 2px 0;
+}
+.sqbz .zt{
+    color: red;
+}
+.sqbz .wfk{
+    color: #57AF36;
+}
+.sqbz .quxiao{
+    color: #fff;
+    background: red;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+.xtgg .gg_list li{
+    line-height: 35px;
+    list-style:disc;
+    border-bottom: 1px dotted #eee;
+}
+.xtgg p i{
+    color: #bbb;
+    margin-right: 3%;
+}
+.form-group btn{
+    border: 1px solid #ED5C00!important;
+}
+.fade{
+    text-align: left;
+}
+.fade .info{
+    padding: 15px;
+}
+.fade .form-group{
+    padding: 15px;
+    overflow: auto;
+}
+.fade .sc_img{
+    margin-top: 20px;
+}
+.fade .sc_img a{
+    color: #fff;
+    padding: 5px 20px;
+    background: #33495E;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.fade .form-horizontal{
+    padding: 15px;
+}
+.wuwu{
+    font-weight: 100;
+    color: #aaa;
+}
+.pp_table p{
+    margin: 0;
+}
+.pp_table .zhuangtai{
+    text-align: center;
+}
+.pp_table .zhuangtai i{
+    color: #ff8900;
+    font-size: 3em
+}
+.pp_table .zhuangtai p{
+    font-weight: bold;
+}
+.pp_table .aniu{
+    max-width: 90px;
+}
+.pp_table .aniu a{
+    display: block;
+    text-align: center;
+    height: 25px;
+    min-width: 80px;
+    line-height: 25px;
+    color: #fff;
+    background: #33495E;
+    border-radius: 3px;
+    margin-bottom: 1px;
+}
+.pp_table .aniu .red_l .tjr{
+    color: red;
+}
+.pp_table .aniu .red_l .tjr a{
+    margin: 0;
+    background: #c41010;
+    margin-bottom: 2px;
+}
+.pp_table .rmb{
+    color: red;
+}
+.pp_table .jsbz{
+    color: #ff8000;
+}
+.pp_table .tgbz{
+    color: #9001ea;
+}
+.pp_table .sysj{
+    font-weight: bold;
+    color: #00af36;
+}
+.pp_table tr td{
+    vertical-align:middle
+}
+.pp_table .jycg{
+    color: #16c75a;
+}
+.pp_table .you{
+    color: #fff;
+    border-radius: 3px;
+    background: #FF8900;
+}
+.xq_rmb{
+    font-weight: bold;
+    color: red;
+}
+.modal-dialog{
+    margin-top: 6%!important;
+}
+@media (max-width: 992px) {
+    .conter .csr .csr_info {
+        background: #ddd;
+        margin-top: 0;
+    }
+    .conter .csr .csr_user img {
+        width: 95%!important;
+    }
+}
+
+@media (max-width:768px) {
+    .user_center{
+        height: 70px
+    }
+    .right {
+        margin: 0;
+    }
+    .xs_menu {
+        float: left;
+        margin: 17px 0 0 30px;
+    }
+    .xs_menu i {
+        font-size: 3em;
+        color: #fff;
+    }
+    .user_header .logo {
+        overflow: hidden;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+    .user_header .logo img {
+        width: auto;
+        max-width: 150px;
+    }
+    .example {
+    width: 95%;
+    }
+    .example .user_home li a{
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header .logo {
+        float: none;
+        display: block;
+        margin-top: 10px;
+    }
+    .header .logo img {
+        max-width: 160px;
+    }
+    .header .nav {
+        float: left;
+        font-size: 1em;
+        margin-left: 0;
+    }
+    .header .nav li a {
+        line-height: 28px;
+        padding: 8px 15px;
+    }
+    .header .login {
+        padding: 5px 15px;
+        margin-top: 10px;
+    }
+    .yinyan h1 {
+        font-size: 3em;
+    }
+    .yinyan h3 {
+        font-size: 2em;
+    }
+    .youshi h1 {
+        font-size: 1.5em;
+    }
+    .conter .youshi dl dt {
+        height: auto;
+    }
+}
+
+@media (max-width: 415px) {
+    .index_nav {
+        min-width: 300px;
+    }
+    .header .nav li a {
+        line-height: 28px;
+        padding: 8px 10px;
+    }
+    .nav .dropdown-menu {
+        max-width: 70px!important;
+    }
+    .nav .dropdown-menu li a {
+        line-height: 1.5em!important;
+    }
+}

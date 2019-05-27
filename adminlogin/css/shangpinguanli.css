@@ -1,0 +1,233 @@
+/********************************
+添加商品***********************************/
+#main #conts .mainBox h2 {
+	font-size:16px;
+	color:#0d71b6;
+	text-align:center;
+	background:#e1e1e1;
+	line-height:50px;
+	font-weight:bold
+}
+
+#main #conts .mainBox table {
+	width:100%;
+	border-collapse:collapse
+}
+
+#main #conts .mainBox table td {
+	text-align:left;
+	padding:5px 20px;
+	box-sizing:border-box;
+	border:1px solid #fff;
+}
+
+#main #conts .mainBox table td:nth-child(odd) {
+	text-align:center;
+	padding:5px
+}
+
+#main #conts .mainBox table tr:nth-child(odd) td:first-child {
+	background:#ebebeb;
+}
+
+#main #conts .mainBox table tr:nth-child(even) td:first-child {
+	background:#f4f4f4;
+}
+
+#main #conts .mainBox table tr:nth-child(odd) td:last-child {
+	background:#f6f6f6;
+}
+
+#main #conts .mainBox table tr:nth-child(even) td:last-child {
+	background:#fff;
+}
+
+#main #conts .mainBox table td input {
+	padding: 4px;
+}
+
+#main #conts .mainBox table td input[type='file'] {
+}
+
+.div1{
+float: left;
+padding:5px 20px;
+background: #e1e1e1;
+width:100px;
+box-sizing:border-box;
+position:relative;
+margin-right:15px;
+}
+.div2{
+text-align:center;
+font-size:15px;
+}
+.inputstyle{
+    width: 60px;
+	padding:5px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: medium none;
+    position: absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0; 
+    left:0px;
+    top: 0px;
+}
+
+#main #conts .mainBox table td input[type='button'] {
+	background:#3598dc;
+	padding:4px 30px;
+	cursor:pointer;
+	color:#fff;
+	margin-left:30px;
+	border:none;
+}
+
+#main #conts .mainBox table td input[type='submit'] {
+	padding:5px 25px;
+	background:#e1e1e1;
+	border:1px solid #666
+}
+
+#main #conts .mainBox table td select {
+	padding:5px 30px;
+}
+
+#main #conts .mainBox table td textarea {
+	width:100%;
+}
+
+#main #conts .mainBox table th {
+	text-align:center
+}
+
+#main #conts .mainBox table th input {
+	background:#e74f5b;
+	padding:4px 25px;
+	color:#fff;
+	border:none;
+	cursor:pointer
+}
+
+#main #conts .mainBox table th input:nth-child(1) {
+	background:#22ac38;
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+/********************************
+添加商品***********************************/
+#main #conts .mainBox h2 {
+	font-size:14px;
+	line-height:30px;
+}
+
+#main #conts .mainBox .table {
+	width:100%;
+	overflow-x:scroll;
+	overflow-y:hidden
+}
+
+#main #conts .mainBox table td {
+	white-space:nowrap;
+	text-align:left;
+	padding:5px 20px;
+	box-sizing:border-box;
+	border:1px solid #fff;
+}
+
+#main #conts .mainBox table td:nth-child(odd) {
+	text-align:center;
+	padding:5px
+}
+
+#main #conts .mainBox table tr:nth-child(odd) td:first-child {
+	background:#ebebeb;
+}
+
+#main #conts .mainBox table tr:nth-child(even) td:first-child {
+	background:#f4f4f4;
+}
+
+#main #conts .mainBox table tr:nth-child(odd) td:last-child {
+	background:#f6f6f6;
+}
+
+#main #conts .mainBox table tr:nth-child(even) td:last-child {
+	background:#fff;
+}
+
+#main #conts .mainBox table td input {
+	padding: 4px;
+}
+
+#main #conts .mainBox table td input[type='file'] {
+}
+
+.div1{
+float: left;
+padding:5px 20px;
+background: #e1e1e1;
+width:100px;
+box-sizing:border-box;
+position:relative;
+margin-right:15px;
+}
+.div2{
+text-align:center;
+font-size:15px;
+}
+.inputstyle{
+    width: 60px;
+	padding:5px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: medium none;
+    position: absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0; 
+    left:0px;
+    top: 0px;
+}
+
+#main #conts .mainBox table td input[type='button'] {
+	background:#3598dc;
+	padding:4px 30px;
+	cursor:pointer;
+	color:#fff;
+	margin-left:30px;
+	border:none;
+}
+
+#main #conts .mainBox table td input[type='submit'] {
+	padding:5px 25px;
+	background:#e1e1e1;
+	border:1px solid #666
+}
+
+#main #conts .mainBox table td select {
+	padding:5px 30px;
+}
+
+#main #conts .mainBox table td textarea {
+	width:100%;
+}
+
+#main #conts .mainBox table th {
+	text-align:center
+}
+
+#main #conts .mainBox table th input {
+	background:#e74f5b;
+	padding:4px 25px;
+	color:#fff;
+	border:none;
+	cursor:pointer
+}
+
+#main #conts .mainBox table th input:nth-child(1) {
+	background:#22ac38;
+}	
+}
